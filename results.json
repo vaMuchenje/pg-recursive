@@ -1,0 +1,111 @@
+[
+  {
+    "id": 11,
+    "books": [
+      {
+        "id": 12,
+        "reviews": [
+        ],
+        "publishers": [
+        ],
+        "name": "Dune"
+      },
+      {
+        "id": 13,
+        "reviews": [
+        ],
+        "publishers": [
+        ],
+        "name": "Dune Messiah"
+      },
+      {
+        "id": 14,
+        "reviews": [
+        ],
+        "publishers": [
+        ],
+        "name": "Children of Dune"
+      }
+    ],
+    "name": "Frank Herbert",
+    "email": "frank.herbert@gmail.com",
+    "date_of_birth": "1920-10-08"
+  },
+  {
+    "id": 15,
+    "books": [
+      {
+        "id": 16,
+        "reviews": [
+          {
+            "id": 20,
+            "stars": 5,
+            "review": "Couldn't sleep for a week - amazing writing !!!"
+          },
+          {
+            "id": 21,
+            "stars": 4,
+            "review": "A real 'page turner'"
+          }
+        ],
+        "publishers": [
+          {
+            "id": 22,
+            "date": "1974-04-01",
+            "name": "Simon And Shuster"
+          }
+        ],
+        "name": "Carrie"
+      },
+      {
+        "id": 17,
+        "reviews": [
+        ],
+        "publishers": [
+          {
+            "id": 23,
+            "date": "1977-01-01",
+            "name": "Simon And Shuster"
+          }
+        ],
+        "name": "The Shining"
+      },
+      {
+        "id": 18,
+        "reviews": [
+        ],
+        "publishers": [
+          {
+            "id": 24,
+            "date": "1978-10-01",
+            "name": "John Wiley & Sons"
+          }
+        ],
+        "name": "The Stand"
+      },
+      {
+        "id": 19,
+        "reviews": [
+        ],
+        "publishers": [
+          {
+            "id": 25,
+            "date": "2004-09-01",
+            "name": "HarperCollins"
+          }
+        ],
+        "name": "The Dark Tower"
+      }
+    ],
+    "name": "Stephen King",
+    "email": "stephen.king@gmail.com",
+    "date_of_birth": "1947-09-21"
+  }
+]------------------------------------------------------------------------
+Original craigslist post:
+https://sfbay.craigslist.org/sfc/cpg/d/san-francisco-looking-for-db-postgresql/7467128374.html
+About craigslist mail:
+https://craigslist.org/about/help/email-relay
+Please flag unwanted messages (spam, scam, other):
+https://post.craigslist.org/mailflag?flagCode=34&smtpid=5b1e216b2ef776b02cd64295841aa1a554ebc622.1
+------------------------------------------------------------------------
