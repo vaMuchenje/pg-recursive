@@ -338,12 +338,3 @@ Unlike the data stored in the database - child ```ids``` are replaced by the act
 <br>
 <br>
 Again - the goal of this job is to create a recursive (PostgreSQL) SQL query which generates JSON matching that found in the attached ```results.json``` file.
-
-------------------------------------------------------------------------
-Original craigslist post:
-https://sfbay.craigslist.org/sfc/cpg/d/san-francisco-looking-for-db-postgresql/7467128374.html
-About craigslist mail:
-https://craigslist.org/about/help/email-relay
-Please flag unwanted messages (spam, scam, other):
-https://post.craigslist.org/mailflag?flagCode=34&smtpid=5b1e216b2ef776b02cd64295841aa1a554ebc622.1
-------------------------------------------------------------------------
