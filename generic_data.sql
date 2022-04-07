@@ -17,7 +17,7 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 --
--- Data for Name: resource_data; Type: TABLE DATA; Schema: public; Owner: dekhaus
+-- Data for Name: resource_data; Type: TABLE DATA; Schema: public;
 --
 
 INSERT INTO public.resource_data (id, resource_id, data, created_at, updated_at) VALUES (12, 6, '{"name": "Dune", "reviews": [], "author_id": 11, "publishers": []}', '2022-04-05 13:56:54.098364', '2022-04-05 13:56:54.098364');
@@ -38,7 +38,7 @@ INSERT INTO public.resource_data (id, resource_id, data, created_at, updated_at)
 
 
 --
--- Data for Name: resources; Type: TABLE DATA; Schema: public; Owner: dekhaus
+-- Data for Name: resources; Type: TABLE DATA; Schema: public;
 --
 
 INSERT INTO public.resources (id, name, version, schema, created_at, updated_at) VALUES (3, 'Author', 1, '{"name": {"type": "string", "label": "Name", "accessor": "name", "is_association": false}, "books": {"type": "array", "label": "Books", "accessor": "books", "is_association": true}, "email": {"type": "string", "label": "Email", "accessor": "email", "is_association": false}, "date_of_birth": {"type": "date", "label": "Birthday", "accessor": "date_of_birth", "is_association": false}}', '2022-04-05 13:56:53.745293', '2022-04-05 13:56:53.745293');
@@ -48,14 +48,14 @@ INSERT INTO public.resources (id, name, version, schema, created_at, updated_at)
 
 
 --
--- Name: resource_data_id_seq; Type: SEQUENCE SET; Schema: public; Owner: dekhaus
+-- Name: resource_data_id_seq; Type: SEQUENCE SET; Schema: public;
 --
 
 SELECT pg_catalog.setval('public.resource_data_id_seq', 25, true);
 
 
 --
--- Name: resources_id_seq; Type: SEQUENCE SET; Schema: public; Owner: dekhaus
+-- Name: resources_id_seq; Type: SEQUENCE SET; Schema: public;
 --
 
 SELECT pg_catalog.setval('public.resources_id_seq', 6, true);
@@ -64,11 +64,3 @@ SELECT pg_catalog.setval('public.resources_id_seq', 6, true);
 --
 -- PostgreSQL database dump complete
 --
-------------------------------------------------------------------------
-Original craigslist post:
-https://sfbay.craigslist.org/sfc/cpg/d/san-francisco-looking-for-db-postgresql/7467128374.html
-About craigslist mail:
-https://craigslist.org/about/help/email-relay
-Please flag unwanted messages (spam, scam, other):
-https://post.craigslist.org/mailflag?flagCode=34&smtpid=5b1e216b2ef776b02cd64295841aa1a554ebc622.1
-------------------------------------------------------------------------
